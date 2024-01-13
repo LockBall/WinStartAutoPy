@@ -2,17 +2,17 @@ how to set up task scheduler
 
 Task Scheduler > Create Basic Task
 
-Trigger(s)  • When the computer starts (at system startup)
+Trigger(s)  • When the computer starts (at system startup) Enabled
 Action      • Start a program
 
 Start a Program
-    browse to the *.bat file
-    Program/script: <full path to *.bat file> e.g. C:\from_git\WinStartAutoPy\hello_time.bat
-    start in (optional): <folder containing *.bat file> C:\from_git\WinStartAutoPy\
+    - browse to the *.bat file
+    - Program/script: <full path to *.bat file> e.g. C:\from_git\WinStartAutoPy\hello_time.bat
+    - start in (optional): <folder containing *.bat file> C:\from_git\WinStartAutoPy\
         this ensures that the output is in this folder
 
 ☑ Open the Properties dialog for this task when I click Finish
-    Properties
+Properties
 
 General
     • Run whether user is logged on or not
