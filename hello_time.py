@@ -4,8 +4,9 @@ import os
 
 cwd = os.getcwd()
 file_name = "hello_time_file.txt"
-
 file_path = os.path.join(cwd, file_name)  # Replace with your file name
+
+print(datetime.now())
 
 if os.path.exists(file_path):
     os.remove(file_path)
