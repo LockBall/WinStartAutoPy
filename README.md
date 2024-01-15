@@ -1,4 +1,12 @@
-### How to set up task scheduler
+#### Python Installation
+<pre>
+    install python to C:\
+    install for all users
+    enable everything that puts python in PATH
+</pre>
+
+
+#### How to set up task scheduler
 <pre>
 
 Task Scheduler > Create Basic Task
