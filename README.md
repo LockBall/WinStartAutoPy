@@ -1,3 +1,9 @@
+####
+<pre>
+This example writes the current date and time to a text file.
+</pre>
+
+
 #### Python Installation
 <pre>
 install latest python 
