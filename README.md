@@ -1,6 +1,7 @@
 #### Python Installation
 <pre>
-install python to C:\
+install latest python 
+    e.g. C:\Python312
 install for all users
 enable everything that puts python in PATH
 copy python.exe and paste a duplicate with a different name, e.g. python_ht.exe
