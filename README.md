@@ -1,10 +1,10 @@
 #### Python Installation
 <pre>
-    install python to C:\
-    install for all users
-    enable everything that puts python in PATH
-    copy python.exe and paste a duplicate with a different name, e.g. python_ht.exe
-    this will allow the *.bat file to check if this specific instance of python script is running
+install python to C:\
+install for all users
+enable everything that puts python in PATH
+copy python.exe and paste a duplicate with a different name, e.g. python_ht.exe
+this will allow the *.bat file to check if this specific instance of python script is running
 </pre>
 
 
