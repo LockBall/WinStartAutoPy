@@ -29,6 +29,9 @@ Start a Program
         • Run whether user is logged on or not
         ☑ Run with highest privileges
         Configure for: Windows 10
+
+    Triggers
+        ☑ Repeat task every:
     
     Conditions
         ☐ Stop if the computer switches to battery power
