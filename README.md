@@ -38,18 +38,30 @@ Start a Program
         Configure for: Windows 10
 
     Triggers
-        ☑ Repeat task every:
-    
+        At startup Repeat task every: <x_minutes>
+            ☑ Repeat task every: [5 minutes]    for a duration of: [indefinitely]
+            ☑ Enabled
+                
+        At task creation / modification
+            ☑ Repeat task every: [5 minutes]    for a duration of: [indefinitely]
+            ☑ Enabled
+
+                
     Conditions
         ☐ Stop if the computer switches to battery power
         ☐ Start the task only if the computer is on AC power
         ☑ Wake the computer to run this task
-    
+
+                
     Settings
-        ☑ Allow task to be run on command
+        ☐ Allow task to be run on command
+        ☑ Run task as soon as possible after a scheduled start is missed
+        ☑ If the task fails, restart every: [1 minute]
+            Attempt to restart up to: [3] times
         ☐ Stop the task if it runs longer than:
     
         If the task is running, then the following rule applies
-        Do not start a new instance    v
+        Run a new instance in parallel    v
+            note: this option assumes that what is being run will check for a duplicate presence and not generate a duplicate
 
 </pre>
