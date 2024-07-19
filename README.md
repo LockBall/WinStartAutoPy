@@ -34,7 +34,10 @@ Start a Program
 
     General
         • Run whether user is logged on or not
+        
         ☑ Run with highest privileges
+        ☐ ☑ This may need to be selected depending on system configuration.
+        ☐ Hidden
         Configure for: Windows 10
 
     Triggers
@@ -54,7 +57,7 @@ Start a Program
 
                 
     Settings
-        ☐ Allow task to be run on command
+        ☑ Allow task to be run on command
         ☑ Run task as soon as possible after a scheduled start is missed
         ☑ If the task fails, restart every: [1 minute]
             Attempt to restart up to: [3] times
